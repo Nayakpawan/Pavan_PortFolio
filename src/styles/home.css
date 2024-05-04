@@ -1,0 +1,138 @@
+#home{
+  background-color: aliceblue;
+}
+.front-img {
+  margin-top: -45px;
+}
+.ri-checkbox-circle-line {
+  color: blue;
+}
+
+.hero__img {
+  position: relative;
+}
+.elem-img {
+  width: 50px;
+}
+.elem {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  gap: 10px;
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.elem-1 {
+  top: 20px;
+  left: -90px;
+}
+.elem-2 {
+  bottom: 40px;
+  left: 350px;
+}
+.elem-4 {
+  top: -80px;
+  left: 350px;
+}
+.elem-text {
+  max-width: 10ch;
+  line-height: 1.1;
+  font-weight: 700;
+  color: black;
+}
+.tasty__treat-title span {
+  color: #1b9018;
+}
+.Typewriter .Typewriter__wrapper {
+  font-family: "RocknRoll One", sans-serif !important;
+  font-size: 2.1rem;
+  font-weight: 800;
+  color: #212245 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+ 
+.elem-img {
+  width: 50px;
+}
+.elem {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  gap: 10px;
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  /* padding: 20px; */
+}
+.elem-1 {
+  top: 200px;
+  left: -16px;
+}
+.elem-2 {
+  bottom: 40px;
+  left: 150px;
+}
+.elem-4 {
+  top: -48px;
+  left: 150px;
+}
+.elem-text {
+  max-width: 8ch;
+  line-height: 1.1;
+  font-weight: 700;
+  color: black;
+}
+  .hero__content h5 {
+    font-size: 1rem;
+  }
+  .front-img {
+    margin-top: 0px !important;
+  }
+  .hero__content p {
+    font-size: 0.8rem;
+    line-height: 25px;
+  }
+
+  .hero__title {
+    font-size: 1.5rem;
+    line-height: 40px;
+  }
+
+  .hero__btns button {
+    padding: 5px 15px;
+    font-size: 0.7rem;
+  }
+
+  .hero__service p {
+    font-size: 0.7rem !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
+  .hero__content {
+    text-align: center;
+  }
+  .front-img {
+    margin-top: 0px !important;
+  }
+  .hero__btns {
+    justify-content: center;
+  }
+
+  .hero__service {
+    justify-content: center;
+  }
+  .why__choose-us {
+    padding-top: 0 !important;
+  }
+}
